@@ -1,0 +1,38 @@
+spaCy
+
+	To compile locally: pip install .
+	
+
+git clone https://github.com/UniversalDependencies/UD_Spanish-AnCora
+mkdir geeztypes-json
+
+python -m spacy convert ./conllu/am_att-ud-test.conllu test.spacy 
+python -m spacy convert ./conllu/am_att-ud-dev.conllu dev.spacy
+python -m spacy convert ./conllu/am_att-ud-train.conllu train.spacy 
+
+mkdir models
+python -m spacy train am models geeztypes-json/am_att-ud-test.json geeztypes-json/am_att-ud-dev.json	
+
+
+V3 spacy
+python -m spacy init config config.cfg --lang am --pipeline tagger --optimize accuracy --force
+python -m spacy train config.cfg --paths.train ./train.spacy --paths.dev ./dev.spacy
+python -m spacy train config.cfg --output ./output --paths.train ./train
+python -m spacy convert am_geeztypes-train.conllu train.spacy 
+
+git clone https://github.com/UniversalDependencies/UD_Spanish-AnCora
+mkdir ancora-json
+python -m spacy convert UD_Spanish-AnCora/es_ancora-ud-train.conllu ancora-json
+python -m spacy convert UD_Spanish-AnCora/es_ancora-ud-dev.conllu ancora-json
+mkdir models
+python -m spacy train es models ancora-json/es_ancora-ud-train.json ancora-json/es_ancora-ud-dev.json	
+
+
+c:\localbin\Python38\python.exe -m spacy convert C:\_personal\Amharic-treebank\train.conllu c:\_personal\amharic-json
+c:\localbin\Python38\python.exe -m spacy convert C:\_personal\Amharic-treebank\dev.conllu c:\_personal\amharic-json
+c:\localbin\Python38\python.exe -m spacy convert C:\_personal\UD_Amharic-ATT\am_att-ud-test.conllu c:\_personal\amharic-json
+
+c:\localbin\Python38\python.exe -m spacy train am C:\_personal\models c:\_personal\amharic-json\train.json c:\_personal\amharic-json\dev.json
+
+stringdef a     '{U+0627}' // Alef
+stringdef a_    '{U+0649}' // Alef Maksura

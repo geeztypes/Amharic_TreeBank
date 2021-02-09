@@ -1,0 +1,7 @@
+# sent_id = 1
+# text = እንግሊዝኛ እየተማርኩ ነው ።
+# translit = IngIlizIN_a Iy_etemarku new .
+1	እንግሊዝኛ	_	_	n	_	_	_	_	Translit=IngIlizIN_a|Feats=pos=n
+2	እየተማርኩ	_	_	v	_	_	_	_	Translit=Iy_etemarku|Feats=sb/p1=True,tm=prf,sub=True,rel=True,pos=v,rl/p=True,as=smp,vc=ps,pp=Iyye
+3	ነው	_	_	cop	_	_	_	_	Translit=new|Feats=tm=prs,pos=cop
+4	።	_	_	punct	_	_	_	_	Translit=.|Feats=
