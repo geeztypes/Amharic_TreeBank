@@ -2,11 +2,13 @@
 # text = የተሰናባቹ ፕሬዚዳንት ዶናልድ ትረምፕ 800 የሚሆኑ ደጋፊዎች፣ የዩናይትድ ስቴትስ የተወካዮች ምክር ቤት ሕንፃን በመውረር፣ በርና መስኮቶችን ሰባብረው ወደ ውስጥ በመግባት የአንዳንድ የምክር ቤት አባላት ቢሮዎችን ዘረፈዋል።
 # translit = yetesenabacu ?pIrEzidant ?donald ?tIremp 800 ?yemihonu deg_afiwoc_ , ?yeyunaytId ?sItEts yetewek_ayoc_ mIkIr bEt ?hInSan bemewrer , ber_In_a meskotoc_In sebabrew wede wIsT bemegbat yandand yemkIr bEt ab_al_at birowoc_In ?zerefewal .
 1	የተሰናባቹ	_	NOUN	_	_	_	_	_	Translit=yetesenabacu
+1	የተሰናባቹ	_	NOUN	_	_	_	_	_	Translit=yetesenabacu
 2	ፕሬዚዳንት	_	NOUN	_	_	_	_	_	Translit=?pIrEzidant
-3	ዶናልድ	_	PROPN	_	_	_	_	_	Translit=?donald
+3	ዶናልድ	_	VERB	_	_	_	_	_	Translit=?donald
 4	ትረምፕ	_	PROPN	_	_	_	_	_	Translit=?tIremp
 5	800	_	NUM	_	_	_	_	_	Translit=800
 6	የሚሆኑ	_	VERB	_	_	_	_	_	Translit=?yemihonu
+7	ደጋፊዎች	_	NOUN	_	_	_	_	_	Translit=deg_afiwoc_
 7	ደጋፊዎች	_	NOUN	_	_	_	_	_	Translit=deg_afiwoc_
 8	፣	_	PUNCT	_	_	_	_	_	Translit=,
 9	የዩናይትድ	_	NOUN	_	_	_	_	_	Translit=?yeyunaytId
@@ -112,7 +114,7 @@
 1	እንደራሴዎቹ	_	NOUN	_	_	_	_	_	Translit=?InderasEwocu
 2	የቀድሞው	_	NOUN	_	_	_	_	_	Translit=yeqedmow
 3	ፕሬዚዳንት	_	NOUN	_	_	_	_	_	Translit=?pIrEzidant
-4	ዶናልድ	_	PROPN	_	_	_	_	_	Translit=?donald
+4	ዶናልድ	_	VERB	_	_	_	_	_	Translit=?donald
 5	ትረምፕ	_	PROPN	_	_	_	_	_	Translit=?tIremp
 6	በሕገወጥ	_	NOUN	_	_	_	_	_	Translit=?behgeweT
 7	መንገድ	_	NOUN	_	_	_	_	_	Translit=menged
