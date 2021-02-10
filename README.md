@@ -11,11 +11,6 @@ mainly newswire. The treebank is licensed under the terms of
 and its original (non-UD) version can be downloaded from
 []().
 
-The morphological and syntactic annotation of this Amharic UD treebank is created
-through a conversion of PDT data. The conversion procedure has been designed by
-Dan Zeman and implemented in Treex.
-
-
 # Acknowledgments
 
 ## References
@@ -63,8 +58,10 @@ This table summarizes the origins and checking of the various columns of the CoN
 # Changelog
 
 * 2021-02-01 v2.7
-  * Fixed bug: question marks were replaced by asterisks.
-  * Adjusted treatment of double lemmas like "m`metr".
+  * Created news crawler
+  * auto generated conllu
+  * cleaned up conllu
+  * trained tagger and ner
 
 
 
