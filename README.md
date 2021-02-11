@@ -1,6 +1,6 @@
 # Summary
 
-The GeezTypes UD treebank is .
+The GeezTypes Amharic UD treebank is .
 
 
 # Introduction
